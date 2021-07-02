@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+    <title>Covid-19</title>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="https://i.pinimg.com/564x/ff/7c/4f/ff7c4f18af98272d3fad3038e680d7b1.jpg" alt="">
+            <div class="title">Vietnam</div>
+        </div>
+        <div class="box_status">
+            <div class="confirmed box_margin">
+                <div class="number">123213</div>
+                <div class="number_change">(123)</div>
+                <div class="text">Confirmed</div> 
+            </div>
+            <div class="deaths box_margin">
+                <div class="number">4232</div>
+                <div class="number_change">(123)</div>
+                <div class="text">Deaths</div> 
+            </div>
+            <div class="recoverd box_margin">
+                <div class="number">123</div>
+                <div class="text">Recovered</div> 
+            </div>
+        </div>
+        <div class="time">Updated: 
+            <div class="time_text">
+                2021-07-02
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="topnav">
+            <div class="search-container">
+              <form action="">
+                <input type="text" placeholder="Tìm theo thành phố" class="textSearch" name="search">
+                <button type="button" class="search">Tìm</button>
+              </form>
+            </div>
+          </div>
+    </div>
+    <div class="container" style="background-color: cadetblue;">
+        <table>
+            <tr>
+              <th>Tỉnh thành</th>
+              <th>Số ca khỏi</th>
+              <th>Sô ca đang điều trị</th>
+              <th>Sô ca tử vong</th>
+              <th>Tổng số ca</th>
+            </tr>
+          </table>
+    </div>
+
+    <div class="last7 container2" style="background-color: cadetblue;">
+        <table>
+            <tr>
+              <th>Ngày</th>
+              <th>Tổng số ca</th>
+              <th>Số ca khỏi</th>
+              <th>Sô ca nguy kịch</th>
+              <th>Sô ca tử vong</th>
+              <th>Sô ca xét nghiệm</th>
+              <th>Tỷ lệ tử vong</th>
+              <th>Tỷ lệ khỏi bệnh</th>
+            </tr>
+          </table>
+    </div>
+</body>
+</html>

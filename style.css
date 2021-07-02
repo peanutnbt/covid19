@@ -1,0 +1,120 @@
+*{}
+
+.container {
+    display: flex;
+    width: 69%;
+    margin: auto;
+    background: black;
+    color: white;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.container2{
+    display: flex;
+    width: 69%;
+    margin: auto;
+    background: black;
+    color: white;
+    justify-content: center;
+    margin-top: 50px;
+}
+.logo img {
+    width: 40px;
+}
+.logo{
+    flex: 100%;
+    text-align: center;
+}
+
+.title {
+    width: 50px;
+    display: inline;
+    font-size: 35px;
+    font-family: Tahoma, sans-serif;
+}
+.box_status {
+    flex: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.box_margin {
+    padding: 10px 20px;
+    margin: 20px 0;
+}
+.confirmed, .deaths{
+    border-right: 1px solid white;
+}
+
+.number, .number_change{
+    display: inline;
+    font-weight: bold;
+}
+
+.confirmed .number{
+    color:red;
+    font-size: 20px;
+}
+
+.deaths .number{
+    color:grey;
+    font-size: 20px;
+}
+
+.recoverd .number{
+    color:green;
+    font-size: 20px;
+}
+
+.box_status.text{
+    margin-top: 10px;
+}
+
+.time_text{
+    display: inline;
+    font-size: 17px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+th {
+    font-size: 20px;
+    color: rgb(245, 255, 111);
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #e9e9e9;
+    margin-top: 20px;
+}
+
+.topnav .search-container {
+    float: right;   
+}
+
+.topnav input[type=text] {
+    font-size: 17px;
+    border: none;
+    padding: 5px 10px;
+}
+
+.topnav .search-container button {
+    float: right;
+    padding: 6px 10px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
